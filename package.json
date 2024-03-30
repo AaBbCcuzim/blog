@@ -10,7 +10,9 @@
   "directories": {
     "doc": "docs"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "vitepress": "^1.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AaBbCcuzim/blog.git"
