@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a4 as p}from"./chunks/framework.ClEHkwpW.js";const u=JSON.parse('{"title":"AJAX","description":"","frontmatter":{},"headers":[],"relativePath":"article/ajax.md","filePath":"article/ajax.md"}'),e={name:"article/ajax.md"},l=p("",7),i=[l];function t(c,r,o,h,d,x){return n(),a("div",null,i)}const g=s(e,[["render",t]]);export{u as __pageData,g as default};

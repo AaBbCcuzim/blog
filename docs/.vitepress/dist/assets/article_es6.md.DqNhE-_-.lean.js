@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a4 as p}from"./chunks/framework.ClEHkwpW.js";const b=JSON.parse('{"title":"ES6","description":"","frontmatter":{},"headers":[],"relativePath":"article/es6.md","filePath":"article/es6.md"}'),e={name:"article/es6.md"},l=p("",85),t=[l];function i(o,c,r,d,h,g){return n(),a("div",null,t)}const m=s(e,[["render",i]]);export{b as __pageData,m as default};

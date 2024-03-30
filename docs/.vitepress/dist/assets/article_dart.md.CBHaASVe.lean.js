@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a4 as p}from"./chunks/framework.ClEHkwpW.js";const b=JSON.parse('{"title":"Dart","description":"","frontmatter":{},"headers":[],"relativePath":"article/dart.md","filePath":"article/dart.md"}'),e={name:"article/dart.md"},l=p("",122),t=[l];function i(c,o,r,d,h,g){return n(),a("div",null,t)}const v=s(e,[["render",i]]);export{b as __pageData,v as default};

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ES6 | Yikes Xavier</title>
+    <meta name="description" content="Yikes Xavier的全栈技术补给站">
+    <meta name="generator" content="VitePress v1.0.1">
+    <link rel="preload stylesheet" href="/blog/assets/style.Cf2WQ-mx.css" as="style">
+    
+    <script type="module" src="/blog/assets/app.CIBvjit4.js"></script>
+    <link rel="preload" href="/blog/assets/inter-roman-latin.Bu8hRsVA.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="modulepreload" href="/blog/assets/chunks/framework.ClEHkwpW.js">
+    <link rel="modulepreload" href="/blog/assets/chunks/theme.DYQRTTpg.js">
+    <link rel="modulepreload" href="/blog/assets/article_es6.md.DqNhE-_-.lean.js">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+  </head>
+  <body>
+    <div id="app"><div class="Layout" data-v-5d98c3a5><!--[--><!--]--><!--[--><span tabindex="-1" data-v-0f60ec36></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-0f60ec36> Skip to content </a><!--]--><!----><header class="VPNav" data-v-5d98c3a5 data-v-ae24b3ad><div class="VPNavBar has-sidebar top" data-v-ae24b3ad data-v-ccf7ddec><div class="wrapper" data-v-ccf7ddec><div class="container" data-v-ccf7ddec><div class="title" data-v-ccf7ddec><div class="VPNavBarTitle has-sidebar" data-v-ccf7ddec data-v-ab179fa1><a class="title" href="/blog/" data-v-ab179fa1><!--[--><!--]--><!----><span data-v-ab179fa1>Yikes Xavier</span><!--[--><!--]--></a></div></div><div class="content" data-v-ccf7ddec><div class="content-body" data-v-ccf7ddec><!--[--><!--]--><div class="VPNavBarSearch search" data-v-ccf7ddec><!--[--><!----><div id="local-search"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search"><span class="DocSearch-Button-Container"><span class="vp-icon DocSearch-Search-Icon"></span><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"><kbd class="DocSearch-Button-Key"></kbd><kbd class="DocSearch-Button-Key">K</kbd></span></button></div><!--]--></div><nav aria-labelledby="main-nav-aria-label" class="VPNavBarMenu menu" data-v-ccf7ddec data-v-7f418b0f><span id="main-nav-aria-label" class="visually-hidden" data-v-7f418b0f>Main Navigation</span><!--[--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/blog/" tabindex="0" data-v-7f418b0f data-v-9c663999><!--[--><span data-v-9c663999>主页</span><!--]--></a><!--]--><!--[--><div class="VPFlyout VPNavBarMenuGroup active" data-v-7f418b0f data-v-b6c34ac9><button type="button" class="button" aria-haspopup="true" aria-expanded="false" data-v-b6c34ac9><span class="text" data-v-b6c34ac9><!----><span data-v-b6c34ac9>文档</span><span class="vpi-chevron-down text-icon" data-v-b6c34ac9></span></span></button><div class="menu" data-v-b6c34ac9><div class="VPMenu" data-v-b6c34ac9 data-v-e7ea1737><div class="items" data-v-e7ea1737><!--[--><!--[--><div class="VPMenuLink" data-v-e7ea1737 data-v-43f1e123><a class="VPLink link" href="/blog/article/html.html" data-v-43f1e123><!--[-->HTML<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-e7ea1737 data-v-43f1e123><a class="VPLink link" href="/blog/article/css.html" data-v-43f1e123><!--[-->CSS<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-e7ea1737 data-v-43f1e123><a class="VPLink link" href="/blog/article/emmet.html" data-v-43f1e123><!--[-->Emmet<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-e7ea1737 data-v-43f1e123><a class="VPLink link" href="/blog/article/js.html" data-v-43f1e123><!--[-->JS<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-e7ea1737 data-v-43f1e123><a class="VPLink link active" href="/blog/article/es6.html" data-v-43f1e123><!--[-->ES6<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-e7ea1737 data-v-43f1e123><a class="VPLink link" href="/blog/article/es7.html" data-v-43f1e123><!--[-->ES7<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-e7ea1737 data-v-43f1e123><a class="VPLink link" href="/blog/article/es8.html" data-v-43f1e123><!--[-->ES8<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-e7ea1737 data-v-43f1e123><a class="VPLink link" href="/blog/article/vue.html" data-v-43f1e123><!--[-->VUE<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-e7ea1737 data-v-43f1e123><a class="VPLink link" href="/blog/article/ajax.html" data-v-43f1e123><!--[-->AJAX<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-e7ea1737 data-v-43f1e123><a class="VPLink link" href="/blog/article/nodejs.html" data-v-43f1e123><!--[-->Node JS<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-e7ea1737 data-v-43f1e123><a class="VPLink link" href="/blog/article/daret.html" data-v-43f1e123><!--[-->Dart<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-e7ea1737 data-v-43f1e123><a class="VPLink link" href="/blog/article/flutter.html" data-v-43f1e123><!--[-->Flutter<!--]--></a></div><!--]--><!--]--></div><!--[--><!--]--></div></div></div><!--]--><!--]--></nav><!----><div class="VPNavBarAppearance appearance" data-v-ccf7ddec data-v-e6aabb21><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-e6aabb21 data-v-d1f28634 data-v-1d5665e3><span class="check" data-v-1d5665e3><span class="icon" data-v-1d5665e3><!--[--><span class="vpi-sun sun" data-v-d1f28634></span><span class="vpi-moon moon" data-v-d1f28634></span><!--]--></span></span></button></div><div class="VPSocialLinks VPNavBarSocialLinks social-links" data-v-ccf7ddec data-v-0394ad82 data-v-7bc22406><!--[--><a class="VPSocialLink no-icon" href="https://github.com/vuejs/vitepress" aria-label="github" target="_blank" rel="noopener" data-v-7bc22406 data-v-eee4e7cb><span class="vpi-social-github" /></a><!--]--></div><div class="VPFlyout VPNavBarExtra extra" data-v-ccf7ddec data-v-d0bd9dde data-v-b6c34ac9><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="extra navigation" data-v-b6c34ac9><span class="vpi-more-horizontal icon" data-v-b6c34ac9></span></button><div class="menu" data-v-b6c34ac9><div class="VPMenu" data-v-b6c34ac9 data-v-e7ea1737><!----><!--[--><!--[--><!----><div class="group" data-v-d0bd9dde><div class="item appearance" data-v-d0bd9dde><p class="label" data-v-d0bd9dde>Appearance</p><div class="appearance-action" data-v-d0bd9dde><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-d0bd9dde data-v-d1f28634 data-v-1d5665e3><span class="check" data-v-1d5665e3><span class="icon" data-v-1d5665e3><!--[--><span class="vpi-sun sun" data-v-d1f28634></span><span class="vpi-moon moon" data-v-d1f28634></span><!--]--></span></span></button></div></div></div><div class="group" data-v-d0bd9dde><div class="item social-links" data-v-d0bd9dde><div class="VPSocialLinks social-links-list" data-v-d0bd9dde data-v-7bc22406><!--[--><a class="VPSocialLink no-icon" href="https://github.com/vuejs/vitepress" aria-label="github" target="_blank" rel="noopener" data-v-7bc22406 data-v-eee4e7cb><span class="vpi-social-github" /></a><!--]--></div></div></div><!--]--><!--]--></div></div></div><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="VPNavScreen" data-v-ccf7ddec data-v-e5dd9c1c><span class="container" data-v-e5dd9c1c><span class="top" data-v-e5dd9c1c></span><span class="middle" data-v-e5dd9c1c></span><span class="bottom" data-v-e5dd9c1c></span></span></button></div></div></div></div><div class="divider" data-v-ccf7ddec><div class="divider-line" data-v-ccf7ddec></div></div></div><!----></header><div class="VPLocalNav has-sidebar empty" data-v-5d98c3a5 data-v-a6f0e41e><div class="container" data-v-a6f0e41e><button class="menu" aria-expanded="false" aria-controls="VPSidebarNav" data-v-a6f0e41e><span class="vpi-align-left menu-icon" data-v-a6f0e41e></span><span class="menu-text" data-v-a6f0e41e>Menu</span></button><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-v-a6f0e41e data-v-d2ecc192><button data-v-d2ecc192>Return to top</button><!----></div></div></div><aside class="VPSidebar" data-v-5d98c3a5 data-v-575e6a36><div class="curtain" data-v-575e6a36></div><nav class="nav" id="VPSidebarNav" aria-labelledby="sidebar-aria-label" tabindex="-1" data-v-575e6a36><span class="visually-hidden" id="sidebar-aria-label" data-v-575e6a36> Sidebar Navigation </span><!--[--><!--]--><!--[--><div class="group" data-v-575e6a36><section class="VPSidebarItem level-0 has-active" data-v-575e6a36 data-v-b8d55f3b><div class="item" role="button" tabindex="0" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><h2 class="text" data-v-b8d55f3b>文档</h2><!----></div><div class="items" data-v-b8d55f3b><!--[--><div class="VPSidebarItem level-1 is-link" data-v-b8d55f3b data-v-b8d55f3b><div class="item" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><a class="VPLink link link" href="/blog/article/html.html" data-v-b8d55f3b><!--[--><p class="text" data-v-b8d55f3b>HTML</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b8d55f3b data-v-b8d55f3b><div class="item" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><a class="VPLink link link" href="/blog/article/css.html" data-v-b8d55f3b><!--[--><p class="text" data-v-b8d55f3b>CSS</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b8d55f3b data-v-b8d55f3b><div class="item" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><a class="VPLink link link" href="/blog/article/emmet.html" data-v-b8d55f3b><!--[--><p class="text" data-v-b8d55f3b>Emmet</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b8d55f3b data-v-b8d55f3b><div class="item" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><a class="VPLink link link" href="/blog/article/js.html" data-v-b8d55f3b><!--[--><p class="text" data-v-b8d55f3b>JS</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b8d55f3b data-v-b8d55f3b><div class="item" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><a class="VPLink link link" href="/blog/article/es6.html" data-v-b8d55f3b><!--[--><p class="text" data-v-b8d55f3b>ES6</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b8d55f3b data-v-b8d55f3b><div class="item" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><a class="VPLink link link" href="/blog/article/es7.html" data-v-b8d55f3b><!--[--><p class="text" data-v-b8d55f3b>ES7</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b8d55f3b data-v-b8d55f3b><div class="item" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><a class="VPLink link link" href="/blog/article/es8.html" data-v-b8d55f3b><!--[--><p class="text" data-v-b8d55f3b>ES8</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b8d55f3b data-v-b8d55f3b><div class="item" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><a class="VPLink link link" href="/blog/article/vue.html" data-v-b8d55f3b><!--[--><p class="text" data-v-b8d55f3b>VUE</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b8d55f3b data-v-b8d55f3b><div class="item" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><a class="VPLink link link" href="/blog/article/ajax.html" data-v-b8d55f3b><!--[--><p class="text" data-v-b8d55f3b>AJAX</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b8d55f3b data-v-b8d55f3b><div class="item" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><a class="VPLink link link" href="/blog/article/nodejs.html" data-v-b8d55f3b><!--[--><p class="text" data-v-b8d55f3b>Node JS</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b8d55f3b data-v-b8d55f3b><div class="item" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><a class="VPLink link link" href="/blog/article/daret.html" data-v-b8d55f3b><!--[--><p class="text" data-v-b8d55f3b>Dart</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-b8d55f3b data-v-b8d55f3b><div class="item" data-v-b8d55f3b><div class="indicator" data-v-b8d55f3b></div><a class="VPLink link link" href="/blog/article/flutter.html" data-v-b8d55f3b><!--[--><p class="text" data-v-b8d55f3b>Flutter</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><!--]--><!--[--><!--]--></nav></aside><div class="VPContent has-sidebar" id="VPContent" data-v-5d98c3a5 data-v-1428d186><div class="VPDoc has-sidebar has-aside" data-v-1428d186 data-v-39a288b8><!--[--><!--]--><div class="container" data-v-39a288b8><div class="aside" data-v-39a288b8><div class="aside-curtain" data-v-39a288b8></div><div class="aside-container" data-v-39a288b8><div class="aside-content" data-v-39a288b8><div class="VPDocAside" data-v-39a288b8 data-v-3f215769><!--[--><!--]--><!--[--><!--]--><div class="VPDocAsideOutline" role="navigation" data-v-3f215769 data-v-935f8a84><div class="content" data-v-935f8a84><div class="outline-marker" data-v-935f8a84></div><div class="outline-title" role="heading" aria-level="2" data-v-935f8a84>On this page</div><nav aria-labelledby="doc-outline-aria-label" data-v-935f8a84><span class="visually-hidden" id="doc-outline-aria-label" data-v-935f8a84> Table of Contents for current page </span><ul class="VPDocOutlineItem root" data-v-935f8a84 data-v-b933a997><!--[--><!--]--></ul></nav></div></div><!--[--><!--]--><div class="spacer" data-v-3f215769></div><!--[--><!--]--><!----><!--[--><!--]--><!--[--><!--]--></div></div></div></div><div class="content" data-v-39a288b8><div class="content-container" data-v-39a288b8><!--[--><!--]--><main class="main" data-v-39a288b8><div style="position:relative;" class="vp-doc _blog_article_es6" data-v-39a288b8><div><h1 id="es6" tabindex="-1">ES6 <a class="header-anchor" href="#es6" aria-label="Permalink to &quot;ES6&quot;">​</a></h1><h2 id="let" tabindex="-1">let <a class="header-anchor" href="#let" aria-label="Permalink to &quot;let&quot;">​</a></h2><p><strong>变量</strong></p><ul><li><strong>变量不能重复声明</strong></li><li><strong>块级作用域</strong></li><li><strong>不存在变量提升（在变量声明前使用）</strong></li><li><strong>不影响作用域链</strong></li></ul><h2 id="const" tabindex="-1">const <a class="header-anchor" href="#const" aria-label="Permalink to &quot;const&quot;">​</a></h2><p><strong>常量</strong></p><ul><li><strong>一定要赋初始值</strong></li><li><strong>一般常量使用大写</strong></li><li><strong>常量值不能修改</strong></li><li><strong>块级作用域</strong></li><li><strong>对于数组和对象的元素修改，不算做对常量的修改，不会报错</strong></li></ul><h2 id="解构赋值" tabindex="-1">解构赋值 <a class="header-anchor" href="#解构赋值" aria-label="Permalink to &quot;解构赋值&quot;">​</a></h2><h3 id="数组的解构" tabindex="-1">数组的解构 <a class="header-anchor" href="#数组的解构" aria-label="Permalink to &quot;数组的解构&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>const ar = [&#39;my_name&#39;,&#39;my_age&#39;,&#39;my_sex&#39;];</span></span>
+<span class="line"><span>let [name, age, sex] = ar;</span></span></code></pre></div><h3 id="对象的解构" tabindex="-1">对象的解构 <a class="header-anchor" href="#对象的解构" aria-label="Permalink to &quot;对象的解构&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>const person = {</span></span>
+<span class="line"><span>    name: &#39;&#39;,</span></span>
+<span class="line"><span>    age: &#39;&#39;,</span></span>
+<span class="line"><span>    sex: &#39;&#39;</span></span>
+<span class="line"><span>};</span></span>
+<span class="line"><span>let {name, age, sex} = person;</span></span></code></pre></div><h2 id="模板字符串" tabindex="-1">模板字符串 <a class="header-anchor" href="#模板字符串" aria-label="Permalink to &quot;模板字符串&quot;">​</a></h2><p><strong>ES6 引入新的声明字符串的方式 **</strong>``**</p><ul><li><strong>内容可以直接出现换行符</strong></li></ul><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>let str = `&lt;ul&gt;</span></span>
+<span class="line"><span>&lt;li&gt;&lt;/li&gt;</span></span>
+<span class="line"><span>   &lt;/ul&gt;`;</span></span></code></pre></div><ul><li><strong>变量拼接</strong></li></ul><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>let str = &#39;test&#39;;</span></span>
+<span class="line"><span>let out = `${str} is successful`;</span></span></code></pre></div><h2 id="对象的简化写法" tabindex="-1">对象的简化写法 <a class="header-anchor" href="#对象的简化写法" aria-label="Permalink to &quot;对象的简化写法&quot;">​</a></h2><p><strong>ES6 允许在大括号里面，直接写入变量和函数，作为对象的属性和方法</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>let name = &#39;&#39;;</span></span>
+<span class="line"><span>let age = &#39;&#39;;</span></span>
+<span class="line"><span>const person = {</span></span>
+<span class="line"><span>    name,</span></span>
+<span class="line"><span>    age,</span></span>
+<span class="line"><span>    do(){ //省略: function</span></span>
+<span class="line"><span>        </span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span></code></pre></div><h2 id="箭头函数" tabindex="-1">箭头函数 <a class="header-anchor" href="#箭头函数" aria-label="Permalink to &quot;箭头函数&quot;">​</a></h2><p>**ES6 允许使用****箭头（=&gt;）**定义函数</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>let fn = function(){</span></span>
+<span class="line"><span>    </span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>let fn = () =&gt; {</span></span>
+<span class="line"><span>    </span></span>
+<span class="line"><span>}</span></span></code></pre></div><ul><li><strong>this 是静态的，this 始终指向函数声明时所在作用于下的 this 的值</strong></li><li><strong>不能作为构造器实例化对象</strong></li><li><strong>不能使用 arguments 变量</strong></li><li><strong>当形参有且只有一个的时候，可以省略小括号</strong></li><li><strong>当代码体只有一条语句的时候，可以省略大括号，return 同时省略，语句的执行结果就是函数的返回值</strong></li></ul><h2 id="函数参数默认值" tabindex="-1">函数参数默认值 <a class="header-anchor" href="#函数参数默认值" aria-label="Permalink to &quot;函数参数默认值&quot;">​</a></h2><p><strong>ES6 允许给函数参数赋初始值</strong></p><ul><li><strong>形参初始值</strong></li></ul><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>function add(a,b=0) {</span></span>
+<span class="line"><span>    return a+b;</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span>let result = add(1);</span></span></code></pre></div><ul><li><strong>与解构赋值结合</strong></li></ul><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>function connect({host, username, password, port=&#39;80&#39;}){</span></span>
+<span class="line"><span>    </span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span>connect({</span></span>
+<span class="line"><span>    host: &#39;&#39;,</span></span>
+<span class="line"><span>    username: &#39;&#39;,</span></span>
+<span class="line"><span>    password: &#39;&#39;,</span></span>
+<span class="line"><span>    port: 3306</span></span>
+<span class="line"><span>})</span></span></code></pre></div><h2 id="rest-参数" tabindex="-1">rest 参数 <a class="header-anchor" href="#rest-参数" aria-label="Permalink to &quot;rest 参数&quot;">​</a></h2><p><strong>ES6 引入 rest 参数，用于获取函数的实参，用来代替 arguments</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>function fn(...args){</span></span>
+<span class="line"><span>    console.log(args);</span></span>
+<span class="line"><span>}</span></span></code></pre></div><h2 id="扩展运算符" tabindex="-1">扩展运算符 <a class="header-anchor" href="#扩展运算符" aria-label="Permalink to &quot;扩展运算符&quot;">​</a></h2><p><strong>...</strong> 扩展运算符能将数组转换为逗号分隔的参数序列</p><ul><li><strong>数组的合并</strong></li></ul><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>const ar1 = [&#39;a&#39;,&#39;b&#39;];</span></span>
+<span class="line"><span>cosnt ar2 = [&#39;c&#39;,&#39;d&#39;];</span></span>
+<span class="line"><span>const ar3 = [...ar1,...ar2];</span></span></code></pre></div><h2 id="symbol" tabindex="-1">symbol <a class="header-anchor" href="#symbol" aria-label="Permalink to &quot;symbol&quot;">​</a></h2><p><strong>ES6 引入了一种新的原始数据类型 Symbol，表示独一无二的值。它是 JS 语言的第七种数据类型，是一种类似字符串的数据类型</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>//创建Symbol</span></span>
+<span class="line"><span>let s = Symbol();</span></span>
+<span class="line"><span>//添加标识的Symbol</span></span>
+<span class="line"><span>let s = Symbol(&#39;id&#39;);</span></span></code></pre></div><ul><li><strong>Symbol 的值是唯一的，用来解决命名冲突的问题</strong></li><li><strong>Symbol 值不能与其他数据进行运算</strong></li><li><strong>Symbol 定义的对象属性不能使用 for...in 循环遍历，但是可以使用</strong> <code>Reflect.ownKeys</code>来获取对象的所有键名</li></ul><h2 id="迭代器" tabindex="-1">迭代器 <a class="header-anchor" href="#迭代器" aria-label="Permalink to &quot;迭代器&quot;">​</a></h2><p><strong>迭代器是一种接口，为各种不同的数据结构提供统一的访问机制。任何数据结构只要部署</strong> <code>iterator</code>接口，就可以完成遍历操作</p><p><strong>工作原理</strong></p><ol><li><strong>创建一个指针对象，指向当前数据结构的起始位置</strong></li><li><strong>第一次调用对象的</strong> <code>next</code>方法，指针自动指向数据结构的第一个成员</li><li><strong>接下来不断调用</strong> <code>next</code>方法，指针一直往后移动，直到指向最后一个成员</li><li><strong>每调用</strong> <code>next</code>方法返回一个包含 <code>value</code>和 <code>done</code>属性的对象</li></ol><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>const arr = [&#39;a&#39;,&#39;b&#39;,&#39;c&#39;]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>let iterator = arr[Symbol.iterator]()</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>iterator.next()</span></span></code></pre></div><h2 id="生成器" tabindex="-1">生成器 <a class="header-anchor" href="#生成器" aria-label="Permalink to &quot;生成器&quot;">​</a></h2><p><strong>异步编程函数</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>function one(){</span></span>
+<span class="line"><span>setTimeout(()=&gt;{</span></span>
+<span class="line"><span>console.log(111);</span></span>
+<span class="line"><span>        iterator.next();</span></span>
+<span class="line"><span>    })</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>function two(){</span></span>
+<span class="line"><span>setTimeout(()=&gt;{</span></span>
+<span class="line"><span>console.log(222);</span></span>
+<span class="line"><span>        iterator.next();</span></span>
+<span class="line"><span>    })</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>function three(){</span></span>
+<span class="line"><span>setTimeout(()=&gt;{</span></span>
+<span class="line"><span>console.log(333);</span></span>
+<span class="line"><span>        iterator.next();</span></span>
+<span class="line"><span>    })</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>function * gen(){</span></span>
+<span class="line"><span>    yield one();</span></span>
+<span class="line"><span>    yield two();</span></span>
+<span class="line"><span>    yield three();</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>let iterator = gen();</span></span>
+<span class="line"><span>iterator.next();</span></span></code></pre></div><h2 id="promise" tabindex="-1">Promise <a class="header-anchor" href="#promise" aria-label="Permalink to &quot;Promise&quot;">​</a></h2><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>const p = new Promise((resolve, reject) =&gt; {</span></span>
+<span class="line"><span>    setTimeout(() =&gt; {</span></span>
+<span class="line"><span>        resolve(&#39;success&#39;);</span></span>
+<span class="line"><span>        // reject(&#39;error&#39;);</span></span>
+<span class="line"><span>    }, 1000);</span></span>
+<span class="line"><span>});</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>p.then((value) =&gt; {</span></span>
+<span class="line"><span>    console.log(value);</span></span>
+<span class="line"><span>}, (reason) =&gt; {</span></span>
+<span class="line"><span>    console.log(reason);  </span></span>
+<span class="line"><span>});</span></span></code></pre></div><blockquote><ul><li><strong>then 方法的返回结果是 Promise 对象，对象状态由回调函数的执行结果决定</strong><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>p.then(value=&gt;{</span></span>
+<span class="line"><span>return new Promise((resolve,reject)=&gt;{</span></span>
+<span class="line"><span>resolve(&#39;ok&#39;)</span></span>
+<span class="line"><span>    })</span></span>
+<span class="line"><span>})</span></span></code></pre></div></li><li><strong>链式调用</strong><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>p.then(value=&gt;{}).then(value=&gt;{})</span></span></code></pre></div></li></ul></blockquote><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>const p = new Promise((resolve, reject) =&gt; {</span></span>
+<span class="line"><span>    fs.readFile(&quot;./a.md&quot;,(err,data) =&gt; {</span></span>
+<span class="line"><span>    resolve(data);</span></span>
+<span class="line"><span>    });</span></span>
+<span class="line"><span>});</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>p.then(value =&gt; {</span></span>
+<span class="line"><span>return new Promise((resolve, reject) =&gt; {</span></span>
+<span class="line"><span>        fs.readFile(&quot;./b.md&quot;,(err,data) =&gt; {</span></span>
+<span class="line"><span>            resolve([value,data]);</span></span>
+<span class="line"><span>        });</span></span>
+<span class="line"><span>    });</span></span>
+<span class="line"><span>}).then(value =&gt; {</span></span>
+<span class="line"><span>return new Promise((resolve, reject) =&gt; {</span></span>
+<span class="line"><span>        fs.readFile(&quot;./c.md&quot;,(err,data) =&gt; {</span></span>
+<span class="line"><span>            value.push(data);</span></span>
+<span class="line"><span>            resolve(value);</span></span>
+<span class="line"><span>        });</span></span>
+<span class="line"><span>    });</span></span>
+<span class="line"><span>})</span></span></code></pre></div><p><code>catch</code></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>p.catch((reason) =&gt; {</span></span>
+<span class="line"><span>console.warn(reason)                  </span></span>
+<span class="line"><span>})</span></span></code></pre></div><h2 id="set" tabindex="-1">Set <a class="header-anchor" href="#set" aria-label="Permalink to &quot;Set&quot;">​</a></h2><p><strong>集合（成员的值唯一）</strong></p><table><thead><tr><th><strong>api</strong></th><th></th></tr></thead><tbody><tr><td><strong>size</strong></td><td><strong>元素个数</strong></td></tr><tr><td><strong>add</strong></td><td><strong>添加元素</strong></td></tr><tr><td><strong>delete</strong></td><td><strong>删除元素</strong></td></tr><tr><td><strong>has</strong></td><td><strong>检测元素</strong></td></tr><tr><td><strong>clear</strong></td><td><strong>清空元素</strong></td></tr></tbody></table><p><strong>数组去重</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>let arr = [1,1,2,2,3]</span></span>
+<span class="line"><span>let result = [...new Set(arr)] // [1,2,3]</span></span></code></pre></div><p><strong>交集</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>let arr2 = [3,4,5]</span></span>
+<span class="line"><span>let result = [...new Set(arr)].filter(item =&gt; {</span></span>
+<span class="line"><span> let s2 = new Set(arr2);</span></span>
+<span class="line"><span>    if(s2.has(item)){</span></span>
+<span class="line"><span>return true</span></span>
+<span class="line"><span>    }else{</span></span>
+<span class="line"><span>return false</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>})</span></span></code></pre></div><h2 id="map" tabindex="-1">Map <a class="header-anchor" href="#map" aria-label="Permalink to &quot;Map&quot;">​</a></h2><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>// 声明Map</span></span>
+<span class="line"><span>let m = new Map();</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>//添加元素</span></span>
+<span class="line"><span>m.set(&#39;a&#39;,b);</span></span>
+<span class="line"><span>m.set(&#39;c&#39;,function(){</span></span>
+<span class="line"><span>   console.log(1);</span></span>
+<span class="line"><span>});</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>//size</span></span>
+<span class="line"><span>m.size</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>//删除</span></span>
+<span class="line"><span>m.delete(&#39;a&#39;)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>//获取</span></span>
+<span class="line"><span>m.get(&#39;a&#39;)</span></span></code></pre></div><h2 id="class" tabindex="-1">Class <a class="header-anchor" href="#class" aria-label="Permalink to &quot;Class&quot;">​</a></h2><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>class Phone{</span></span>
+<span class="line"><span>constructor(brand, price){</span></span>
+<span class="line"><span>this.brand=brand;</span></span>
+<span class="line"><span>        this.price=price;</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>    </span></span>
+<span class="line"><span>    call(){</span></span>
+<span class="line"><span>        console.log(&quot;打电话&quot;);</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>let onePlus = new Phone(&quot;1+0&quot;, 2999)</span></span></code></pre></div><h3 id="静态成员" tabindex="-1">静态成员 <a class="header-anchor" href="#静态成员" aria-label="Permalink to &quot;静态成员&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>class Phone{</span></span>
+<span class="line"><span>    static name = &#39;1+&#39;;</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>console.log(Phone.name);</span></span></code></pre></div><h3 id="继承" tabindex="-1">继承 <a class="header-anchor" href="#继承" aria-label="Permalink to &quot;继承&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>class SmartPhone extends Phone{</span></span>
+<span class="line"><span>constuctor(brand, price, color, size){</span></span>
+<span class="line"><span>super(brand, price);</span></span>
+<span class="line"><span>        this.color = color;</span></span>
+<span class="line"><span>        this.size =  size;</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>    </span></span>
+<span class="line"><span>    photo(){</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>    </span></span>
+<span class="line"><span>    playGame(){</span></span>
+<span class="line"><span>        </span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>    </span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>const xiaomi = new SmartPhone(&#39;小米&#39;,799,&#39;黑色&#39;,&#39;4.7&#39;)</span></span></code></pre></div><h3 id="重写" tabindex="-1">重写 <a class="header-anchor" href="#重写" aria-label="Permalink to &quot;重写&quot;">​</a></h3><p><strong>同名函数只能重写无法调用父类方法</strong></p><h3 id="getter-和-setter" tabindex="-1">getter 和 setter <a class="header-anchor" href="#getter-和-setter" aria-label="Permalink to &quot;getter 和 setter&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>class Phone{</span></span>
+<span class="line"><span>    get price(){</span></span>
+<span class="line"><span>return 100;</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>    </span></span>
+<span class="line"><span>    set price(new){</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>let s = new Phone();</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>s.price = &#39;free&#39;</span></span></code></pre></div><h2 id="数值扩展" tabindex="-1">数值扩展 <a class="header-anchor" href="#数值扩展" aria-label="Permalink to &quot;数值扩展&quot;">​</a></h2><ul><li><code>Number.EPSILON</code>是 JS 表示的最小精度</li><li><strong>二进制 0b1010，八进制 0o777，十六进制 0xff</strong></li><li><code>Number.isFinite</code>检测一个数值是否为有限数</li><li><code>Number.isNaN</code>检测一个数值是否为 NaN</li><li><code>Number.parseInt``Number.parseFloat</code>字符串转整数</li><li><code>Number.isInteger</code>判断一个数是否为整数</li><li><code>Math.trunc</code>将数字的小数部分抹掉</li><li><code>Math.sign</code>判断一个数到底为正数、负数、还是零</li></ul><h2 id="对象扩展" tabindex="-1">对象扩展 <a class="header-anchor" href="#对象扩展" aria-label="Permalink to &quot;对象扩展&quot;">​</a></h2><ul><li><code>Object.is</code>判断两个值是否完全相等</li><li><code>Object.assign</code>对象的合并</li><li><code>Object.setPrototypeOf</code>设置原型对象</li><li><code>Object.getPrototypeOf</code>获取原型对象</li></ul><h2 id="模块化" tabindex="-1">模块化 <a class="header-anchor" href="#模块化" aria-label="Permalink to &quot;模块化&quot;">​</a></h2><p><strong>模块功能主要由两个命令构成：</strong><code>export</code>和 <code>import</code></p><ul><li><code>export</code>命令用于规定模块的对外接口</li><li><code>import</code>命令用于输入其他模块提供的功能</li></ul><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>&lt;script type=&quot;module&quot;&gt;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>&lt;/script&gt;</span></span></code></pre></div><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>// 分别暴露</span></span>
+<span class="line"><span>export let a=1;</span></span>
+<span class="line"><span>export function b(){</span></span>
+<span class="line"><span>    </span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// 统一暴露</span></span>
+<span class="line"><span>let a=1;</span></span>
+<span class="line"><span>function b(){</span></span>
+<span class="line"><span>    </span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span>export {a,b};</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// 默认暴露</span></span>
+<span class="line"><span>export default {</span></span>
+<span class="line"><span>    a:1,</span></span>
+<span class="line"><span>    b(){</span></span>
+<span class="line"><span>        </span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span></code></pre></div><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>// 通用方式</span></span>
+<span class="line"><span>import * as 别名 from &quot;./test.js&quot;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// 解构赋值形式</span></span>
+<span class="line"><span>import {a,b} from &quot;./test.js&quot;</span></span>
+<span class="line"><span>import {a as aa,b} from &quot;./test.js&quot;</span></span>
+<span class="line"><span>import {default as c} from &quot;./test.js&quot;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>// 简便形式 针对默认暴露</span></span>
+<span class="line"><span>import c from &quot;./test.js&quot;</span></span></code></pre></div></div></div></main><footer class="VPDocFooter" data-v-39a288b8 data-v-09de1c0f><!--[--><!--]--><!----><nav class="prev-next" data-v-09de1c0f><div class="pager" data-v-09de1c0f><a class="VPLink link pager-link prev" href="/blog/article/js.html" data-v-09de1c0f><!--[--><span class="desc" data-v-09de1c0f>Previous page</span><span class="title" data-v-09de1c0f>JS</span><!--]--></a></div><div class="pager" data-v-09de1c0f><a class="VPLink link pager-link next" href="/blog/article/es7.html" data-v-09de1c0f><!--[--><span class="desc" data-v-09de1c0f>Next page</span><span class="title" data-v-09de1c0f>ES7</span><!--]--></a></div></nav></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"index.md\":\"BnNvgPz7\",\"article_es8.md\":\"wjWZv3C7\",\"article_ajax.md\":\"DoEEk7wn\",\"article_es7.md\":\"DMeMJznP\",\"article_emmet.md\":\"D9XIzGZC\",\"article_js.md\":\"CmNKnq5v\",\"article_es6.md\":\"DqNhE-_-\",\"article_html.md\":\"C1mwSSJE\",\"article_css.md\":\"DZY_FVG2\",\"article_dart.md\":\"CBHaASVe\",\"article_flutter.md\":\"DhzJ5h2G\",\"article_vue.md\":\"TO3xWBju\",\"article_nodejs.md\":\"D5CqP6cp\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"Yikes Xavier\",\"description\":\"Yikes Xavier的全栈技术补给站\",\"base\":\"/blog/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"search\":{\"provider\":\"local\"},\"nav\":[{\"text\":\"主页\",\"link\":\"/\"},{\"text\":\"文档\",\"items\":[{\"text\":\"HTML\",\"link\":\"/article/html\"},{\"text\":\"CSS\",\"link\":\"/article/css\"},{\"text\":\"Emmet\",\"link\":\"/article/emmet\"},{\"text\":\"JS\",\"link\":\"/article/js\"},{\"text\":\"ES6\",\"link\":\"/article/es6\"},{\"text\":\"ES7\",\"link\":\"/article/es7\"},{\"text\":\"ES8\",\"link\":\"/article/es8\"},{\"text\":\"VUE\",\"link\":\"/article/vue\"},{\"text\":\"AJAX\",\"link\":\"/article/ajax\"},{\"text\":\"Node JS\",\"link\":\"/article/nodejs\"},{\"text\":\"Dart\",\"link\":\"/article/daret\"},{\"text\":\"Flutter\",\"link\":\"/article/flutter\"}]}],\"sidebar\":[{\"text\":\"文档\",\"items\":[{\"text\":\"HTML\",\"link\":\"/article/html\"},{\"text\":\"CSS\",\"link\":\"/article/css\"},{\"text\":\"Emmet\",\"link\":\"/article/emmet\"},{\"text\":\"JS\",\"link\":\"/article/js\"},{\"text\":\"ES6\",\"link\":\"/article/es6\"},{\"text\":\"ES7\",\"link\":\"/article/es7\"},{\"text\":\"ES8\",\"link\":\"/article/es8\"},{\"text\":\"VUE\",\"link\":\"/article/vue\"},{\"text\":\"AJAX\",\"link\":\"/article/ajax\"},{\"text\":\"Node JS\",\"link\":\"/article/nodejs\"},{\"text\":\"Dart\",\"link\":\"/article/daret\"},{\"text\":\"Flutter\",\"link\":\"/article/flutter\"}]}],\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/vuejs/vitepress\"}]},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+    
+  </body>
+</html>

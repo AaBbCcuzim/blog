@@ -7,20 +7,28 @@ hero:
   text: "的全栈技术补给站"
   tagline: 努力发掘最新的全栈技术
   image:
+    src: /logo.png
+    alt: Vitepress
 
   actions:
     - theme: brand
-      text: 快速开始
+      text: 文档
       link: /markdown-examples
     - theme: alt
-      text: 文档中心
-      link: /api-examples
+      text: 在Github上查看
+      link: https://github.com/AaBbCcuzim
 
 features:
-  - title: Feature A
+  - icon: 🛠️
+    title: 前端
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+    link: /guide/start
+  - icon: ⚡️
+    title: 后端
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+    link: /guide/start
+  - icon: 🌞
+    title: 部署
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /guide/start
 ---
